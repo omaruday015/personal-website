@@ -1,0 +1,124 @@
+
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-style: 50px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+p{
+    color: dimgray;
+}
+.magenta-highlight{
+    color: magenta;
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.half-width img{
+    width: 100%;
+}
+
+.top-banner{
+  
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+}
+
+section{
+    height: 600px;
+    padding-bottom: 150px;
+}
+
+.linked-btn{
+
+    text-decoration: none;
+    background-image: linear-gradient(pink, magenta);
+  
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+
+}
+
+.bio-area{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 70%;
+    background-color: white;
+}
+
+.latest-work{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+     background-position: left; 
+}
+
+
+
+
+#work1{
+    
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
+    border-image-slice: 1;
+}
+
+#work2{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, aqua);
+    border-image-slice: 1;
+}
+
+#work2{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, pink, magenta);
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+    font-size: 12px;
+}
+
+#latest-work-txt{
+    text-align: center;
+}
+
+.lw-width{
+    width: 25%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.lw-width img{
+    width: 100%;
+}
+
+.mail-area{
+    color: white;
+}
+
+.client-area{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-top: 150px;
+}
